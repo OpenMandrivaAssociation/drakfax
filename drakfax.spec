@@ -38,7 +38,7 @@ make PREFIX=$RPM_BUILD_ROOT install
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/applications/
 cat > $RPM_BUILD_ROOT%{_datadir}/applications/mandriva-drakfax.desktop << EOF
 [Desktop Entry]
-Name=A client and server fax configuration tool
+Name=Fax configuration
 Comment=A client and server fax configuration tool
 Exec=%{_bindir}/%{name}
 Icon=%{name}
