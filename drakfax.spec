@@ -44,6 +44,7 @@ Exec=%{_bindir}/%{name}
 Icon=%{name}
 Type=Application
 Categories=GTK;Settings;
+NoDisplay=true
 EOF
 
 %clean
