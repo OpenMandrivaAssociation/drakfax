@@ -4,13 +4,13 @@
 Summary:	Fax configuration tool
 Name:		%{name}
 Version:	%{version}
-Release:	%mkrel 3
+Release:	%mkrel 5
 #cvs source
 # http://www.mandrivalinux.com/en/cvs.php3
 Source0:	%{name}-%{version}.tar.bz2
 License:	GPLv2+
 URL:		https://qa.mandriva.com
-Group:		System/Configuration/Other
+Group:		System/Configuration/Network
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	drakxtools >= 10-0.9mdk, perl-Gtk2 >= 1.023-2mdk, hylafax-client >= 4.1.8-2mdk
 Buildrequires:	perl-MDK-Common-devel
