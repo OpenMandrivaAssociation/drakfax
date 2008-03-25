@@ -10,7 +10,7 @@ Release:	%mkrel 5
 Source0:	%{name}-%{version}.tar.bz2
 License:	GPLv2+
 URL:		https://qa.mandriva.com
-Group:		System/Configuration/Network
+Group:		System/Configuration/Networking
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	drakxtools >= 10-0.9mdk, perl-Gtk2 >= 1.023-2mdk, hylafax-client >= 4.1.8-2mdk
 Buildrequires:	perl-MDK-Common-devel
