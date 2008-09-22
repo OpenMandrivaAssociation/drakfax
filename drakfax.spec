@@ -1,10 +1,10 @@
-%define version 0.17
+%define version 0.17.1
 %define name drakfax
 
 Summary:	Fax configuration tool
 Name:		%{name}
 Version:	%{version}
-Release:	%mkrel 5
+Release:	%mkrel 1
 #cvs source
 # http://www.mandrivalinux.com/en/cvs.php3
 Source0:	%{name}-%{version}.tar.bz2
