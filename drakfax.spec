@@ -1,4 +1,4 @@
-%define version 0.17.2
+%define version 0.17.3
 %define name drakfax
 
 Summary:	Fax configuration tool
