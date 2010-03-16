@@ -4,7 +4,7 @@
 Summary:	Fax configuration tool
 Name:		%{name}
 Version:	%{version}
-Release:	%mkrel 2
+Release:	%mkrel 3
 #cvs source
 # http://www.mandrivalinux.com/en/cvs.php3
 Source0:	%{name}-%{version}.tar.bz2
