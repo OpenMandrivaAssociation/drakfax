@@ -28,15 +28,15 @@ a hylafax server.
 %build
 
 %install
-rm -rf $RPM_BUILD_ROOT
-make PREFIX=$RPM_BUILD_ROOT install 
+rm -rf %{buildroot}
+make PREFIX=%{buildroot} install 
 
 #install lang
 %{find_lang} drakfax
 
 #install menu
-mkdir -p $RPM_BUILD_ROOT%{_datadir}/applications/
-cat > $RPM_BUILD_ROOT%{_datadir}/applications/mandriva-drakfax.desktop << EOF
+mkdir -p %{buildroot}%{_datadir}/applications/
+cat > %{buildroot}%{_datadir}/applications/mandriva-drakfax.desktop << EOF
 [Desktop Entry]
 Name=Fax configuration
 Comment=A client and server fax configuration tool
@@ -48,7 +48,7 @@ NoDisplay=true
 EOF
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %if %mdkversion < 200900
 %post
