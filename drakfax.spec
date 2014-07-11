@@ -1,7 +1,7 @@
 Summary:	Fax configuration tool
 Name:		drakfax
 Version:	0.17.3
-Release:	16
+Release:	17
 License:	GPLv2+
 Group:		System/Configuration/Networking
 Url:		https://qa.mandriva.com
